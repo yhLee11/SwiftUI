@@ -9,8 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var showDetailView : Bool = false
+    @State var userName : String = ""
+
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            Text(userName)
+            Button(action:{
+                self.showDetailView = true
+            }){
+                Text("Check Detail")
+            }.sheet(isPresented: self.$showDetailView) {
+                DetailView(showDetailView: self.$showDetailView, userName: self.$userName)
+                
+            }}
     }
 }
 

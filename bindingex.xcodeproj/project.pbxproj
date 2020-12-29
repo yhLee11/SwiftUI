@@ -15,6 +15,7 @@
 		8319C190259B2A140012F75F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8319C18E259B2A140012F75F /* LaunchScreen.storyboard */; };
 		8319C19B259B2A140012F75F /* bindingexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8319C19A259B2A140012F75F /* bindingexTests.swift */; };
 		8319C1A6259B2A140012F75F /* bindingexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8319C1A5259B2A140012F75F /* bindingexUITests.swift */; };
+		8319C1B4259B2A320012F75F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8319C1B3259B2A320012F75F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8319C1A1259B2A140012F75F /* bindingexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bindingexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8319C1A5259B2A140012F75F /* bindingexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bindingexUITests.swift; sourceTree = "<group>"; };
 		8319C1A7259B2A140012F75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8319C1B3259B2A320012F75F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				8319C183259B2A0E0012F75F /* AppDelegate.swift */,
 				8319C185259B2A0E0012F75F /* SceneDelegate.swift */,
 				8319C187259B2A0E0012F75F /* ContentView.swift */,
+				8319C1B3259B2A320012F75F /* DetailView.swift */,
 				8319C189259B2A140012F75F /* Assets.xcassets */,
 				8319C18E259B2A140012F75F /* LaunchScreen.storyboard */,
 				8319C191259B2A140012F75F /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8319C184259B2A0E0012F75F /* AppDelegate.swift in Sources */,
+				8319C1B4259B2A320012F75F /* DetailView.swift in Sources */,
 				8319C186259B2A0E0012F75F /* SceneDelegate.swift in Sources */,
 				8319C188259B2A0E0012F75F /* ContentView.swift in Sources */,
 			);
